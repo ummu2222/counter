@@ -37,8 +37,8 @@ const Counter = () => {
         if (n >= maxn) {
             setn(maxn);
         }
-        if (n <= (-maxn)) {
-            setn(-maxn);
+        if (n <= 0) {
+            setn(0);
         }
 
         const update_in_back = async () => {
@@ -67,8 +67,8 @@ const Counter = () => {
 
 
     const decrement = () => {
-        if (n === (-maxn)) {
-            setn(-maxn);
+        if (n <= 0 ) {
+            setn(0);
         }
         else
             setn(n - 1);
