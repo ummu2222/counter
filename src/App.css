@@ -21,6 +21,7 @@
   border: 2px solid #B24242;
   border-right: 1px solid #B24242;
   border-radius: 8px;
+  
 }
 
 .minus {
@@ -118,6 +119,7 @@ input::-webkit-inner-spin-button {
 .upper-text{
   display: flex;
   margin-bottom: -20px;
+  height: 42px;
   
 }
 
